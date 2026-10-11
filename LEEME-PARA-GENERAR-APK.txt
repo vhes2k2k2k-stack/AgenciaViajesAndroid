@@ -1,0 +1,14 @@
+GENERAR EL APK DE AGENCIA DE VIAJES
+
+Este paquete contiene el código fuente Android. En este entorno no están instalados Android SDK ni Gradle, así que no es posible compilar aquí y entregar un APK verificado.
+
+OPCIÓN PARA GENERARLO EN LA NUBE (sin instalar Android Studio):
+1. Descomprime AgenciaViajesAndroid.zip en una computadora.
+2. Crea un repositorio en GitHub y sube todos los archivos de la carpeta al repositorio (incluida la carpeta .github).
+3. En GitHub abre la pestaña Actions.
+4. Ejecuta el flujo “Build Android APK” con “Run workflow”, o haz un push a la rama main/master.
+5. Cuando termine correctamente, abre la ejecución y descarga el artefacto “AgenciaViajes-debug-apk”.
+6. Descomprime el artefacto y copia app-debug.apk al teléfono Android.
+7. Abre el APK en el teléfono y, si Android lo solicita, permite instalar aplicaciones desde esa fuente.
+
+El APK debug es para pruebas e instalación manual; no está firmado para publicar en Google Play.
